@@ -1,0 +1,4633 @@
+{
+	"id": "d0016bcb-1c1b-4d85-8ba3-3772b155071b",
+	"name": "Mi PROYECTO Seguro Pack 1.0",
+	"allTests": [],
+	"timestamp": "2019-10-08T01:32:18.469Z",
+	"collection_id": "76db73f7-0e88-4c0e-ad09-272df96b0575",
+	"folder_id": "cff96834-b59e-4b44-9a32-4740f18b57ed",
+	"target_type": "folder",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 10,
+	"collection": {
+		"id": "76db73f7-0e88-4c0e-ad09-272df96b0575",
+		"name": "Pruebas de Carga",
+		"description": "",
+		"auth": null,
+		"events": [
+			{
+				"listen": "prerequest",
+				"script": {
+					"id": "7cb270be-84e8-4e0c-b40c-fd804c3ff2a8",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			},
+			{
+				"listen": "test",
+				"script": {
+					"id": "97a3513e-ed63-4d81-acf3-1fcee93d234f",
+					"type": "text/javascript",
+					"exec": [
+						"pm.test(\"Status code is 200\", function () {",
+						"    pm.response.to.have.status(200);",
+						"});"
+					]
+				}
+			}
+		],
+		"variables": [],
+		"order": [
+			"8ae6d449-1f91-4978-b300-4f98f532cbc5",
+			"afb626b3-a67a-4cbe-9ddf-eebfeec29a7f",
+			"33b37185-f440-4333-a575-65fc4bd2d1b5",
+			"54352a26-ee82-4153-9f22-921fbef17fa8",
+			"e4e839c9-34d7-45db-874c-79086f4e7fab",
+			"93901077-fb0e-45bf-a5ff-11ecdae9897c",
+			"95a51ecc-b314-4ca1-b3bf-601292a84e71",
+			"e6a00890-9fee-453d-b86f-02f52c2e23d6",
+			"109576a7-6405-4fab-a829-0c966de32f44",
+			"1a15de02-4b82-4b65-a20d-97311aeadff5",
+			"f57a19cd-d378-4712-8682-7bb9d007b992",
+			"d27770eb-8981-46db-a7ec-4e95d4a1e74f",
+			"7b4408b7-b93a-4824-af0a-1ee902ed1446"
+		],
+		"folders_order": [
+			"968fe964-bd0a-4114-8c4a-e1d20c929a20"
+		],
+		"owner": "1498105",
+		"favorite": false,
+		"protocolProfileBehavior": {}
+	},
+	"folder": {
+		"id": "cff96834-b59e-4b44-9a32-4740f18b57ed",
+		"name": "Mi PROYECTO Seguro Pack 1.0",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"collection": "76db73f7-0e88-4c0e-ad09-272df96b0575",
+		"folder": "968fe964-bd0a-4114-8c4a-e1d20c929a20",
+		"order": [],
+		"folders_order": [
+			"3addbbe6-dd40-4ac7-b977-c9fd2e47098c",
+			"d44ca277-2afd-4e47-8f41-e7afb6653d9f",
+			"afd29e19-c241-42e3-a6c3-18e1fc168ca7"
+		],
+		"protocolProfileBehavior": {},
+		"type": "folder",
+		"depth": 2
+	},
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "PUT - Paso1Previsional",
+			"id": "17a37ff4-4bcb-4a7a-9b01-d7b1dd3ed10d",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"68",
+				"67",
+				"65",
+				"65",
+				"69",
+				"66",
+				"62",
+				"70",
+				"65",
+				"59"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "59",
+			"totalRequestTime": 656,
+			"iterationResults": {}
+		},
+		{
+			"name": "buscaProductoVigente",
+			"id": "47eb4612-752a-48b4-81f1-1bfd21a66289",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"43",
+				"32",
+				"35",
+				"54",
+				"35",
+				"35",
+				"46",
+				"36",
+				"48",
+				"40"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "40",
+			"totalRequestTime": 404,
+			"iterationResults": {}
+		},
+		{
+			"name": "datos",
+			"id": "79e775c9-bad4-4085-957e-0163dc9fc401",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"49",
+				"54",
+				"63",
+				"48",
+				"54",
+				"65",
+				"44",
+				"45",
+				"51",
+				"53"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "53",
+			"totalRequestTime": 526,
+			"iterationResults": {}
+		},
+		{
+			"name": "PasoDosPrevisional",
+			"id": "c3d74f6b-04a7-4095-9571-9464ea8d4d20",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"60",
+				"61",
+				"60",
+				"71",
+				"80",
+				"60",
+				"66",
+				"64",
+				"62",
+				"59"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "59",
+			"totalRequestTime": 643,
+			"iterationResults": {}
+		},
+		{
+			"name": "ValidacionCliente",
+			"id": "8a03d2fc-865d-4a81-b4d3-988c2d6acf1f",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"39",
+				"34",
+				"37",
+				"35",
+				"46",
+				"46",
+				"39",
+				"30",
+				"39",
+				"35"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "35",
+			"totalRequestTime": 380,
+			"iterationResults": {}
+		},
+		{
+			"name": "POST - ValidacionPasoCeroPrevisional",
+			"id": "fb8b43cf-7c0a-4f02-bb3b-16b8035fb093",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"87",
+				"71",
+				"86",
+				"81",
+				"75",
+				"69",
+				"93",
+				"76",
+				"78",
+				"78"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "78",
+			"totalRequestTime": 794,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT - PasoDosPrevisional",
+			"id": "f70bd369-6d5a-413d-b7d5-6fd96f0e5356",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"69",
+				"68",
+				"59",
+				"61",
+				"62",
+				"62",
+				"62",
+				"75",
+				"58",
+				"67"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "67",
+			"totalRequestTime": 643,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT -  PasoDosPrevisional - 2",
+			"id": "c9f6da6f-3ed9-4df4-8636-30f948db2ea9",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"72",
+				"61",
+				"59",
+				"59",
+				"51",
+				"67",
+				"75",
+				"61",
+				"63",
+				"65"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "65",
+			"totalRequestTime": 633,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT - PasoDosPrevisional - 3",
+			"id": "4847b6e2-3757-47bc-a15e-0dfe35864df9",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"61",
+				"80",
+				"60",
+				"62",
+				"60",
+				"56",
+				"66",
+				"73",
+				"60",
+				"93"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "93",
+			"totalRequestTime": 671,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT - PasoDosPrevisional - 4",
+			"id": "07d70fed-90dc-4334-969a-0b9c64ef4082",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"66",
+				"72",
+				"62",
+				"60",
+				"54",
+				"61",
+				"60",
+				"57",
+				"52",
+				"80"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "80",
+			"totalRequestTime": 624,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT - PasoTresPrevisional - 5",
+			"id": "5e494869-6a74-4e80-8f2d-447755540181",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 10
+				}
+			},
+			"times": [
+				"59",
+				"70",
+				"68",
+				"71",
+				"60",
+				"77",
+				"62",
+				"65",
+				"61",
+				"59"
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				}
+			],
+			"time": "59",
+			"totalRequestTime": 652,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT - datos",
+			"id": "8e38054b-7183-4897-9fdf-59c241bfa881",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"61",
+				"60",
+				"55",
+				"63",
+				"115",
+				"57",
+				"65",
+				"69",
+				"72",
+				"58"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "58",
+			"totalRequestTime": 675,
+			"iterationResults": {}
+		},
+		{
+			"name": "DatosSuspenderPago",
+			"id": "9fe3979f-69be-4992-bbc3-27863a068c1a",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"51",
+				"50",
+				"54",
+				"45",
+				"58",
+				"52",
+				"51",
+				"52",
+				"50",
+				"55"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "55",
+			"totalRequestTime": 518,
+			"iterationResults": {}
+		},
+		{
+			"name": "nopactadas",
+			"id": "a0bf4c97-047b-4564-ac14-9b3ecc465400",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"52",
+				"58",
+				"75",
+				"57",
+				"73",
+				"57",
+				"53",
+				"69",
+				"55",
+				"74"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "74",
+			"totalRequestTime": 623,
+			"iterationResults": {}
+		},
+		{
+			"name": "PasoTresPrevisional",
+			"id": "aa8014d1-f79c-4baa-88b0-d55574e5fdb0",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"61",
+				"59",
+				"57",
+				"86",
+				"70",
+				"56",
+				"60",
+				"54",
+				"62",
+				"56"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "56",
+			"totalRequestTime": 621,
+			"iterationResults": {}
+		},
+		{
+			"name": "saldosfueraplan",
+			"id": "68b391e7-d610-487b-b01c-ead8f31186a2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"53",
+				"59",
+				"71",
+				"66",
+				"63",
+				"59",
+				"83",
+				"55",
+				"62",
+				"57"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "57",
+			"totalRequestTime": 628,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT - DatosSuspenderPago",
+			"id": "57d35795-96d4-444a-bedb-507311929816",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"57",
+				"57",
+				"60",
+				"59",
+				"70",
+				"63",
+				"65",
+				"53",
+				"72",
+				"53"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "53",
+			"totalRequestTime": 609,
+			"iterationResults": {}
+		},
+		{
+			"name": "grafico",
+			"id": "c61e071b-3820-4f53-85ef-fe602610833b",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"63",
+				"49",
+				"49",
+				"56",
+				"61",
+				"52",
+				"55",
+				"50",
+				"50",
+				"52"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "52",
+			"totalRequestTime": 537,
+			"iterationResults": {}
+		},
+		{
+			"name": "opciones",
+			"id": "f8ed23c3-4025-4022-a3fe-dc692ff7f7b4",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"63",
+				"73",
+				"60",
+				"55",
+				"51",
+				"63",
+				"49",
+				"48",
+				"49",
+				"48"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "48",
+			"totalRequestTime": 559,
+			"iterationResults": {}
+		},
+		{
+			"name": "noprevisional",
+			"id": "88e2cd0c-85b7-4782-8deb-f7ba6c012e9a",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"132",
+				"79",
+				"84",
+				"83",
+				"80",
+				"91",
+				"85",
+				"77",
+				"83",
+				"89"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "89",
+			"totalRequestTime": 883,
+			"iterationResults": {}
+		},
+		{
+			"name": "rentabilidad",
+			"id": "f1bdee15-d5e9-4bf0-86ab-2bee70310890",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"57",
+				"55",
+				"62",
+				"54",
+				"90",
+				"54",
+				"88",
+				"56",
+				"76",
+				"56"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "56",
+			"totalRequestTime": 648,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT - ValidacionPasoCeroPrevisional",
+			"id": "19b417ce-7cef-41b1-aa72-6280f23e18dd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"60",
+				"56",
+				"65",
+				"58",
+				"66",
+				"51",
+				"62",
+				"65",
+				"67",
+				"57"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "57",
+			"totalRequestTime": 607,
+			"iterationResults": {}
+		},
+		{
+			"name": "datoscliente",
+			"id": "aea40373-d308-4048-804b-7163b7813bb4",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"53",
+				"61",
+				"52",
+				"74",
+				"55",
+				"61",
+				"50",
+				"52",
+				"53",
+				"55"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "55",
+			"totalRequestTime": 566,
+			"iterationResults": {}
+		},
+		{
+			"name": "datosCotizador",
+			"id": "f06fb484-0f75-4866-b3d3-009378f26b21",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"84",
+				"70",
+				"65",
+				"73",
+				"81",
+				"65",
+				"67",
+				"65",
+				"69",
+				"63"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "63",
+			"totalRequestTime": 702,
+			"iterationResults": {}
+		},
+		{
+			"name": "persona",
+			"id": "a22a342b-63d7-4da4-b34e-99b0cec9c3df",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"7244",
+				"7102",
+				"7049",
+				"7056",
+				"7053",
+				"7054",
+				"7126",
+				"7207",
+				"7011",
+				"7083"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "7083",
+			"totalRequestTime": 70985,
+			"iterationResults": {}
+		},
+		{
+			"name": "PropuestaPaso1",
+			"id": "673cfe3b-573f-4897-89ee-8cd891dc7a44",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"73",
+				"65",
+				"66",
+				"56",
+				"60",
+				"62",
+				"54",
+				"66",
+				"64",
+				"51"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "51",
+			"totalRequestTime": 617,
+			"iterationResults": {}
+		},
+		{
+			"name": "PropuestaPaso2",
+			"id": "04c582f7-dd93-4193-8e69-0a87581cdc20",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"60",
+				"51",
+				"61",
+				"60",
+				"55",
+				"57",
+				"58",
+				"52",
+				"61",
+				"59"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "59",
+			"totalRequestTime": 574,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT - PropuestaPaso2",
+			"id": "24b403b1-325b-49ae-aa21-8ceaaaa67a79",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"54",
+				"54",
+				"57",
+				"61",
+				"59",
+				"76",
+				"62",
+				"51",
+				"59",
+				"52"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "52",
+			"totalRequestTime": 585,
+			"iterationResults": {}
+		},
+		{
+			"name": "contratante",
+			"id": "d1942e2c-6402-46c7-8f3f-52a16c8b2c6b",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"49",
+				"53",
+				"53",
+				"51",
+				"45",
+				"50",
+				"63",
+				"50",
+				"47",
+				"47"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "47",
+			"totalRequestTime": 508,
+			"iterationResults": {}
+		},
+		{
+			"name": "contratante",
+			"id": "f1175305-97b5-49fa-86e1-51c336171575",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"51",
+				"57",
+				"55",
+				"48",
+				"50",
+				"49",
+				"54",
+				"57",
+				"62",
+				"58"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "58",
+			"totalRequestTime": 541,
+			"iterationResults": {}
+		},
+		{
+			"name": "datoscliente",
+			"id": "01c12cea-c06b-445c-90d7-e2e8aef9aa20",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"51",
+				"45",
+				"60",
+				"61",
+				"57",
+				"51",
+				"49",
+				"54",
+				"45",
+				"53"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "53",
+			"totalRequestTime": 526,
+			"iterationResults": {}
+		},
+		{
+			"name": "PropuestaPaso3",
+			"id": "18f2126c-8658-4b46-a230-05ce339f10d9",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"63",
+				"76",
+				"66",
+				"76",
+				"65",
+				"73",
+				"64",
+				"67",
+				"66",
+				"62"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "62",
+			"totalRequestTime": 678,
+			"iterationResults": {}
+		},
+		{
+			"name": "validaEquifax",
+			"id": "6cd61a99-c990-4568-98b8-ff52fdb369fa",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"341",
+				"705",
+				"282",
+				"199",
+				"189",
+				"206",
+				"254",
+				"424",
+				"329",
+				"439"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "439",
+			"totalRequestTime": 3368,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT - PropuestaPaso3",
+			"id": "b4a072e3-7657-4707-98ee-94b30e5628ce",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"97",
+				"78",
+				"74",
+				"84",
+				"74",
+				"78",
+				"76",
+				"76",
+				"81",
+				"86"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "86",
+			"totalRequestTime": 804,
+			"iterationResults": {}
+		},
+		{
+			"name": "PropuestaFormulario",
+			"id": "fed83c56-b069-4b72-a586-be435106eaea",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"58",
+				"57",
+				"48",
+				"53",
+				"56",
+				"52",
+				"49",
+				"50",
+				"56",
+				"49"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "49",
+			"totalRequestTime": 528,
+			"iterationResults": {}
+		},
+		{
+			"name": "POST - ListaFormulario",
+			"id": "05634ba8-5575-4bbe-9414-b0daac66788a",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"147",
+				"141",
+				"145",
+				"159",
+				"147",
+				"155",
+				"131",
+				"133",
+				"150",
+				"135"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "135",
+			"totalRequestTime": 1443,
+			"iterationResults": {}
+		},
+		{
+			"name": "obtenerHoldingCodigo",
+			"id": "a7280521-be74-421b-be80-428f6e6031d1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"285",
+				"271",
+				"318",
+				"285",
+				"306",
+				"297",
+				"352",
+				"283",
+				"311",
+				"392"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "392",
+			"totalRequestTime": 3100,
+			"iterationResults": {}
+		},
+		{
+			"name": "PropuestaFormulario",
+			"id": "ade449a5-fbe3-4bac-8b8f-7aa1286e22ea",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"80",
+				"81",
+				"82",
+				"80",
+				"83",
+				"76",
+				"111",
+				"83",
+				"75",
+				"80"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "80",
+			"totalRequestTime": 831,
+			"iterationResults": {}
+		},
+		{
+			"name": "validaDPS",
+			"id": "e21ddc57-2ede-4ef1-9863-f18db3b25ac8",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"3700",
+				"3648",
+				"3397",
+				"3372",
+				"3422",
+				"3203",
+				"3526",
+				"3449",
+				"3811",
+				"3267"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "3267",
+			"totalRequestTime": 34795,
+			"iterationResults": {}
+		},
+		{
+			"name": "PropuestaFormulario",
+			"id": "65492588-6657-4399-b323-832898095c6b",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"54",
+				"44",
+				"51",
+				"56",
+				"61",
+				"48",
+				"50",
+				"58",
+				"57",
+				"74"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "74",
+			"totalRequestTime": 553,
+			"iterationResults": {}
+		},
+		{
+			"name": "POST - ListaFormulario - 2",
+			"id": "192e1ced-3d05-4357-a12b-e94c29553064",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"185",
+				"193",
+				"187",
+				"173",
+				"166",
+				"252",
+				"163",
+				"183",
+				"166",
+				"159"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "159",
+			"totalRequestTime": 1827,
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT - PropuestaPaso1",
+			"id": "ea5328bc-d1c3-4be0-8ffd-500fd61c0a7e",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"60",
+				"71",
+				"62",
+				"65",
+				"63",
+				"70",
+				"67",
+				"64",
+				"55",
+				"64"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "64",
+			"totalRequestTime": 641,
+			"iterationResults": {}
+		},
+		{
+			"name": "POST - ListaFormulario - 3",
+			"id": "c4c3efd0-e260-46a0-a9c8-7642a73b3954",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"1174",
+				"1159",
+				"1252",
+				"1294",
+				"1152",
+				"1239",
+				"1126",
+				"1149",
+				"1115",
+				"1132"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "1132",
+			"totalRequestTime": 11792,
+			"iterationResults": {}
+		},
+		{
+			"name": "contratante",
+			"id": "1e1f1d05-d9c6-4034-979f-f59e93f991dc",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"50",
+				"49",
+				"49",
+				"51",
+				"58",
+				"50",
+				"57",
+				"53",
+				"53",
+				"49"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "49",
+			"totalRequestTime": 519,
+			"iterationResults": {}
+		},
+		{
+			"name": "PasoDosPrevisional",
+			"id": "14b6db94-2021-4fc9-b4b2-c4ae683f6d27",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"69",
+				"151",
+				"59",
+				"59",
+				"64",
+				"65",
+				"59",
+				"86",
+				"62",
+				"57"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "57",
+			"totalRequestTime": 731,
+			"iterationResults": {}
+		},
+		{
+			"name": "validaDPS",
+			"id": "01b62a7b-0551-428d-afd7-dad88df96f64",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"2848",
+				"3258",
+				"2739",
+				"2604",
+				"2727",
+				"2368",
+				"2879",
+				"2443",
+				"2956",
+				"2451"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "2451",
+			"totalRequestTime": 27273,
+			"iterationResults": {}
+		},
+		{
+			"name": "POST - Propuesta",
+			"id": "450413d6-7447-4b23-a5fc-f40df8c654b8",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"58",
+				"58",
+				"59",
+				"73",
+				"63",
+				"64",
+				"56",
+				"60",
+				"68",
+				"48"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "48",
+			"totalRequestTime": 607,
+			"iterationResults": {}
+		},
+		{
+			"name": "infoGPS",
+			"id": "aa80bd06-83c2-4907-9a8e-1ffa6f9325e4",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"194",
+				"192",
+				"81",
+				"88",
+				"88",
+				"98",
+				"101",
+				"100",
+				"87",
+				"355"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "355",
+			"totalRequestTime": 1384,
+			"iterationResults": {}
+		},
+		{
+			"name": "infoGPS",
+			"id": "10c02f4f-5836-480b-a317-7da2682ac111",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"88",
+				"155",
+				"108",
+				"91",
+				"93",
+				"84",
+				"172",
+				"189",
+				"97",
+				"91"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "91",
+			"totalRequestTime": 1168,
+			"iterationResults": {}
+		},
+		{
+			"name": "infoGPS",
+			"id": "b8c19d13-9981-4ba5-a15f-5dfee1adc299",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"88",
+				"94",
+				"86",
+				"87",
+				"86",
+				"82",
+				"88",
+				"84",
+				"86",
+				"93"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "93",
+			"totalRequestTime": 874,
+			"iterationResults": {}
+		},
+		{
+			"name": "obtenerHoldingCodigo",
+			"id": "d2c7da5a-3822-45ba-ac71-1503eaedd69b",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				"294",
+				"306",
+				"305",
+				"275",
+				"311",
+				"307",
+				"302",
+				"316",
+				"287",
+				"329"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "329",
+			"totalRequestTime": 3032,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 500,
+	"totalFail": 10,
+	"totalTime": 185086,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "PUT - Paso1Previsional",
+			"id": "17a37ff4-4bcb-4a7a-9b01-d7b1dd3ed10d",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/Paso1Previsional/16758585-K?_dc=1570245494890",
+			"time": "59",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "buscaProductoVigente",
+			"id": "47eb4612-752a-48b4-81f1-1bfd21a66289",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileToolsScty/rest/VidaplanningTools/buscaProductoVigente?_dc=1570245495397&rut=16758585-K&page=1&start=0&limit=25",
+			"time": "40",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "datos",
+			"id": "79e775c9-bad4-4085-957e-0163dc9fc401",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/ValidacionPasoCeroPrevisional/datos?_dc=1570245495247&holdingId=2817840&page=1&start=0&limit=25",
+			"time": "53",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PasoDosPrevisional",
+			"id": "c3d74f6b-04a7-4095-9571-9464ea8d4d20",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoDosPrevisional?_dc=1570245495417&idHolding=2817840&page=1&start=0&limit=25",
+			"time": "59",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "ValidacionCliente",
+			"id": "8a03d2fc-865d-4a81-b4d3-988c2d6acf1f",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileToolsScty/rest/VidaplanningTools/ValidacionCliente?_dc=1570245495027&rutCliente=16758585-K&usuario=16269016-7&page=1&start=0&limit=25",
+			"time": "35",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "POST - ValidacionPasoCeroPrevisional",
+			"id": "fb8b43cf-7c0a-4f02-bb3b-16b8035fb093",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/ValidacionPasoCeroPrevisional?_dc=1570245495103",
+			"time": "78",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT - PasoDosPrevisional",
+			"id": "f70bd369-6d5a-413d-b7d5-6fd96f0e5356",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoDosPrevisional/11525777?_dc=1570245656138",
+			"time": "67",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT -  PasoDosPrevisional - 2",
+			"id": "c9f6da6f-3ed9-4df4-8636-30f948db2ea9",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoDosPrevisional/11525778?_dc=1570245656143",
+			"time": "65",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT - PasoDosPrevisional - 3",
+			"id": "4847b6e2-3757-47bc-a15e-0dfe35864df9",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoDosPrevisional/11525779?_dc=1570245656147",
+			"time": "93",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT - PasoDosPrevisional - 4",
+			"id": "07d70fed-90dc-4334-969a-0b9c64ef4082",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoDosPrevisional/11525780?_dc=1570245656151",
+			"time": "80",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT - PasoTresPrevisional - 5",
+			"id": "5e494869-6a74-4e80-8f2d-447755540181",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoTresPrevisional/14708122?_dc=1570245656947",
+			"time": "59",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 10
+				}
+			}
+		},
+		{
+			"name": "PUT - datos",
+			"id": "8e38054b-7183-4897-9fdf-59c241bfa881",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/ValidacionPasoCeroPrevisional/datos/2817840?_dc=1570245656502",
+			"time": "58",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "DatosSuspenderPago",
+			"id": "9fe3979f-69be-4992-bbc3-27863a068c1a",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/Vidaplanning/DatosSuspenderPago?_dc=1570245656837&holdingId=2817840&page=1&start=0&limit=25",
+			"time": "55",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "nopactadas",
+			"id": "a0bf4c97-047b-4564-ac14-9b3ecc465400",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoTresPrevisional/nopactadas?_dc=1570245656834&idHolding=2817840&page=1&start=0&limit=25",
+			"time": "74",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PasoTresPrevisional",
+			"id": "aa8014d1-f79c-4baa-88b0-d55574e5fdb0",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoTresPrevisional?_dc=1570245656832&idHolding=2817840&page=1&start=0&limit=25",
+			"time": "56",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "saldosfueraplan",
+			"id": "68b391e7-d610-487b-b01c-ead8f31186a2",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoTresPrevisional/saldosfueraplan?_dc=1570245656835&idHolding=2817840&page=1&start=0&limit=25",
+			"time": "57",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT - DatosSuspenderPago",
+			"id": "57d35795-96d4-444a-bedb-507311929816",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/Vidaplanning/DatosSuspenderPago/2817840?_dc=1570246141793",
+			"time": "53",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "grafico",
+			"id": "c61e071b-3820-4f53-85ef-fe602610833b",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoCuatroPrevisional/grafico?_dc=1570246142119&idOpcion=1007&idHolding=2817840&page=1&start=0&limit=25",
+			"time": "52",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "opciones",
+			"id": "f8ed23c3-4025-4022-a3fe-dc692ff7f7b4",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoCuatroPrevisional/opciones?_dc=1570246141872&idHolding=2817840&page=1&start=0&limit=25",
+			"time": "48",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "noprevisional",
+			"id": "88e2cd0c-85b7-4782-8deb-f7ba6c012e9a",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/OutputCotizacion/noprevisional?_dc=1570246553553&idHolding=2817840&page=1&start=0&limit=25",
+			"time": "89",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "rentabilidad",
+			"id": "f1bdee15-d5e9-4bf0-86ab-2bee70310890",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoCuatroPrevisional/rentabilidad?_dc=1570246553447&pct=3.70&idHolding=2817840&page=1&start=0&limit=25",
+			"time": "56",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT - ValidacionPasoCeroPrevisional",
+			"id": "19b417ce-7cef-41b1-aa72-6280f23e18dd",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/ValidacionPasoCeroPrevisional/2817840?_dc=1570246615555",
+			"time": "57",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "datoscliente",
+			"id": "aea40373-d308-4048-804b-7163b7813bb4",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/Paso1Previsional/datoscliente?_dc=1570246696724&idParty=252401&page=1&start=0&limit=25",
+			"time": "55",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "datosCotizador",
+			"id": "f06fb484-0f75-4866-b3d3-009378f26b21",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/ListaCombos/datosCotizador?_dc=1570246696346&page=1&start=0&limit=25",
+			"time": "63",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "persona",
+			"id": "a22a342b-63d7-4da4-b34e-99b0cec9c3df",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/DatosInicioPropuesta/persona?_dc=1570246696223&usuario=16269016-7&start=0&limit=15&page=1",
+			"time": "7083",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PropuestaPaso1",
+			"id": "673cfe3b-573f-4897-89ee-8cd891dc7a44",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaPaso1?_dc=1570246696349&holdingId=2817840&page=1&start=0&limit=25",
+			"time": "51",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PropuestaPaso2",
+			"id": "04c582f7-dd93-4193-8e69-0a87581cdc20",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaPaso2?_dc=1570246783225&holdingId=2817840&page=1&start=0&limit=25",
+			"time": "59",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT - PropuestaPaso2",
+			"id": "24b403b1-325b-49ae-aa21-8ceaaaa67a79",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaPaso2/2817840?_dc=1570246817234",
+			"time": "52",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "contratante",
+			"id": "d1942e2c-6402-46c7-8f3f-52a16c8b2c6b",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaPaso2/contratante?_dc=1570246816914&holdingId=2817840&page=1&start=0&limit=25",
+			"time": "47",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "contratante",
+			"id": "f1175305-97b5-49fa-86e1-51c336171575",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaPaso2/contratante?_dc=1570246817138&holdingId=2817840&page=1&start=0&limit=25",
+			"time": "58",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "datoscliente",
+			"id": "01c12cea-c06b-445c-90d7-e2e8aef9aa20",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/Paso1Previsional/datoscliente?_dc=1570246817028&idParty=252401&page=1&start=0&limit=25",
+			"time": "53",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PropuestaPaso3",
+			"id": "18f2126c-8658-4b46-a230-05ce339f10d9",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaPaso3?_dc=1570246833487&holdingId=2817840&page=1&start=0&limit=25",
+			"time": "62",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "validaEquifax",
+			"id": "6cd61a99-c990-4568-98b8-ff52fdb369fa",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/Propuesta/validaEquifax?_dc=1570246817240&holdingId=2817840&usuario=16269016-7&page=1&start=0&limit=25",
+			"time": "439",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT - PropuestaPaso3",
+			"id": "b4a072e3-7657-4707-98ee-94b30e5628ce",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaPaso3/2817840?_dc=1570246932843",
+			"time": "86",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PropuestaFormulario",
+			"id": "fed83c56-b069-4b72-a586-be435106eaea",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaFormulario?_dc=1570246933363&idHolding=2817840&idSeccion=248092&page=1&start=0&limit=25",
+			"time": "49",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "POST - ListaFormulario",
+			"id": "05634ba8-5575-4bbe-9414-b0daac66788a",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaFormulario/ListaFormulario?_dc=1570247032994",
+			"time": "135",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "obtenerHoldingCodigo",
+			"id": "a7280521-be74-421b-be80-428f6e6031d1",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/FirmaDigital/obtenerHoldingCodigo?_dc=1570247036401&holdingId=2817840&page=1&start=0&limit=25",
+			"time": "392",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PropuestaFormulario",
+			"id": "ade449a5-fbe3-4bac-8b8f-7aa1286e22ea",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaFormulario?_dc=1570247033304&idHolding=2817840&idSeccion=248105&page=1&start=0&limit=25",
+			"time": "80",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "validaDPS",
+			"id": "e21ddc57-2ede-4ef1-9863-f18db3b25ac8",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/Propuesta/validaDPS?_dc=1570247294685&holdingId=2817840&usuario=16269016-7&mensaje=%20Lugar%20de%20trabajo%20de%20asegurado%20es%20abierto%3A%20Seguro%201.0.&page=1&start=0&limit=25",
+			"time": "3267",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PropuestaFormulario",
+			"id": "65492588-6657-4399-b323-832898095c6b",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaFormulario?_dc=1570247193372&idHolding=2817840&idSeccion=248118&page=1&start=0&limit=25",
+			"time": "74",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "POST - ListaFormulario - 2",
+			"id": "192e1ced-3d05-4357-a12b-e94c29553064",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaFormulario/ListaFormulario?_dc=1570247289019",
+			"time": "159",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT - PropuestaPaso1",
+			"id": "ea5328bc-d1c3-4be0-8ffd-500fd61c0a7e",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaPaso1/2817840?_dc=1570247289107",
+			"time": "64",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "POST - ListaFormulario - 3",
+			"id": "c4c3efd0-e260-46a0-a9c8-7642a73b3954",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaFormulario/ListaFormulario?_dc=1570247289112",
+			"time": "1132",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "contratante",
+			"id": "1e1f1d05-d9c6-4034-979f-f59e93f991dc",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PropuestaPaso2/contratante?_dc=1570247294354&holdingId=2817840&page=1&start=0&limit=25",
+			"time": "49",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PasoDosPrevisional",
+			"id": "14b6db94-2021-4fc9-b4b2-c4ae683f6d27",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/PasoDosPrevisional?_dc=1570247294547&idHolding=2817840&page=1&start=0&limit=25",
+			"time": "57",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "validaDPS",
+			"id": "01b62a7b-0551-428d-afd7-dad88df96f64",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/Propuesta/validaDPS?_dc=1570247294685&holdingId=2817840&usuario=16269016-7&mensaje=%20Lugar%20de%20trabajo%20de%20asegurado%20es%20abierto%3A%20Seguro%201.0.&page=1&start=0&limit=25",
+			"time": "2451",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "POST - Propuesta",
+			"id": "450413d6-7447-4b23-a5fc-f40df8c654b8",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/Propuesta?_dc=1570247304620",
+			"time": "48",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "infoGPS",
+			"id": "aa80bd06-83c2-4907-9a8e-1ffa6f9325e4",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/IntegracionGPS/infoGPS?_dc=1570247304737&idHolding=2817840&codEstado=DOC&codCasual=PEN&usuario=16269016-7&page=1&start=0&limit=25",
+			"time": "355",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "infoGPS",
+			"id": "10c02f4f-5836-480b-a317-7da2682ac111",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/IntegracionGPS/infoGPS?_dc=1570247329968&idHolding=2817840&codEstado=DOC&codCasual=ADJ&usuario=16269016-7&page=1&start=0&limit=25",
+			"time": "91",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "infoGPS",
+			"id": "b8c19d13-9981-4ba5-a15f-5dfee1adc299",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/IntegracionGPS/infoGPS?_dc=1570247330206&idHolding=2817840&codEstado=PRO&codCasual=TER&usuario=16269016-7&page=1&start=0&limit=25",
+			"time": "93",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "obtenerHoldingCodigo",
+			"id": "d2c7da5a-3822-45ba-ac71-1503eaedd69b",
+			"url": "https://api.vidasecurity.cl/vs/ind/VidaPlanningMobileServicesScty/rest/FirmaDigital/obtenerHoldingCodigo?_dc=1570247330711&holdingId=2817840&page=1&start=0&limit=25",
+			"time": "329",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}

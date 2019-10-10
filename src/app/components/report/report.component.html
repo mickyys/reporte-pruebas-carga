@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1>{{type}}</h1>
+    </div>
+  </div>
+  <div *ngIf="!loading" class="row">
+    <div class="col-md-12">
+      <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
+        [plugins]="barChartPlugins" [legend]="barChartLegend" [chartType]="barChartType">
+      </canvas>
+    </div>
+  </div>
+  <div class="row mb-5">
+    <div class="col-md-12">
+      <button type="button" class="btn btn-danger mr-2" (click)="slowServices()">Lentos</button>
+      <button type="button" class="btn btn-success" (click)="fastServices()">Rapidos</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="card" *ngFor="let row of data; let i = index">
+        <div class="card-header">
+          <div class="row">
+            <div class="col-md-11">
+              <p>{{ i+1 }} - {{row.name}}</p>
+            </div>
+            <div class="col-md-1 text-right">
+                <i *ngIf="!row.collapse" class="fas fa-2x fa-chevron-circle-up" (click)="row.collapse = !row.collapse"></i>
+                <i *ngIf="row.collapse" class="fas fa-2x fa-minus-circle" (click)="row.collapse = !row.collapse"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted">Code Status : {{row.responseCode.code}}</h6>
+          <p class="card-text">{{row.url}}</p>
+          <div *ngFor="let time of row.times; let i = index" [ngbCollapse]="row.collapse">
+            <p class="card-text">{{ i + 1  }} - {{time / 1000}} seg.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
